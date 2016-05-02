@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F4405C21CD77A0F000FE9C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4405C11CD77A0F000FE9C8 /* main.m */; };
+		1F4405CB1CD77AAA000FE9C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4405C81CD77AAA000FE9C8 /* main.m */; };
+		1F4405CC1CD77AAA000FE9C8 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4405CA1CD77AAA000FE9C8 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		1F4405BE1CD77A0F000FE9C8 /* FriendsShip */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FriendsShip; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F4405C11CD77A0F000FE9C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F4405C81CD77AAA000FE9C8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F4405C91CD77AAA000FE9C8 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		1F4405CA1CD77AAA000FE9C8 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		1F4405C01CD77A0F000FE9C8 /* FriendsShip */ = {
 			isa = PBXGroup;
 			children = (
-				1F4405C11CD77A0F000FE9C8 /* main.m */,
+				1F4405C81CD77AAA000FE9C8 /* main.m */,
+				1F4405C91CD77AAA000FE9C8 /* User.h */,
+				1F4405CA1CD77AAA000FE9C8 /* User.m */,
 			);
 			path = FriendsShip;
 			sourceTree = "<group>";
@@ -118,7 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F4405C21CD77A0F000FE9C8 /* main.m in Sources */,
+				1F4405CC1CD77AAA000FE9C8 /* User.m in Sources */,
+				1F4405CB1CD77AAA000FE9C8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
