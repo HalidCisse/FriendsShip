@@ -15,11 +15,11 @@
 @property NSMutableArray* friends;
 
 
--(id)initWithName:(NSString*)name;
+-(instancetype)initWithName:(NSString*)name;
 
--(void)AddFriend:(User*)Friend;
+-(void)addFriend:(User*)Friend;
 
--(void)PrintFriends;
+-(void)printFriends;
 
 
 @end

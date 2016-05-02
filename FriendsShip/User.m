@@ -1,10 +1,4 @@
-//
-//  User.m
-//  Exo1
-//
-//  Created by Halid Cisse on 5/1/16.
-//  Copyright © 2016 Halid Cisse. All rights reserved.
-//
+
 
 #import "User.h"
 
@@ -20,22 +14,28 @@
     return self;
 }
 
-- (id)initWithName : (NSString *) name
+
+- (instancetype)initWithName : (NSString *) name
 {
     self = [super init];
+    
     if (self) {
+        
         self.friends = [NSMutableArray array];
         self.Name =name;
     }
+    
     return self;
 }
 
--(void)AddFriend: (User*) Friend;
+
+-(void)addFriend: (User*) Friend;
 {
     [self.friends addObject: Friend];
 }
 
--(void)PrintFriends;
+
+-(void)printFriends;
 {
     NSLog(@"friends of %@ count %lu", self.Name, [self.friends count]);
     

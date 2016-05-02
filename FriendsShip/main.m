@@ -11,31 +11,27 @@
 
 
 
-
 int main(int argc, const char * argv[]) {
     
     @autoreleasepool {
         
-        User *halid = [[User alloc] init]; //[[User alloc] InitWithName:@"halid"]; [User ];
-        halid.Name = @"halid";
+        User *halid = [[User alloc] initWithName:@"halid"];
         NSLog(@"created %@", halid.Name);
         
         
-        User *gorel = [[User alloc] init];
-        gorel.Name = @"gorel";
+        User *gorel = [[User alloc] initWithName:@"gorel"];
         NSLog(@"created %@", gorel.Name);
         
         
-        User *boukel = [[User alloc] init];
-        boukel.Name = @"boukel";
+        User *boukel = [[User alloc] initWithName:@"boukel"];
         NSLog(@"created %@", boukel.Name);
         
         
         // create friendship
-        [halid AddFriend:gorel];
-        [halid AddFriend:boukel];
+        [halid addFriend:gorel];
+        [halid addFriend:boukel];
         
-        [halid PrintFriends];
+        [halid printFriends];
         
     }
     return 0;
